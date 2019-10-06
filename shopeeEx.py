@@ -8,3 +8,4 @@ driver.get("https://shopee.sg/Apple-iphone-6s-Plus-64GB-%EF%BC%88DEMO-SET-SG-1-m
 elem = driver.find_element_by_css_selector('div._3n5NQx')
 print(elem.text)
 
+driver.close()
